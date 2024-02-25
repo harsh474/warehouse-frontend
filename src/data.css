@@ -1,0 +1,69 @@
+.app-container {
+  background-color: rgb(23, 24, 28);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Set flex direction to column */
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 20px; /* Add margin bottom to separate from the table-container */
+  font-size: 36px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  color: #4CAF50; /* Cool green color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5); /* Add text shadow for shading */
+}
+
+
+.table-container {
+  position: relative;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgb(35, 35, 44);
+  padding: 20px;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.table-header h2 {
+  margin-bottom: 0; /* Remove default bottom margin */
+  font-weight: bold; /* Make text bold */
+  color: #F0E68C; /* Light yellow color */
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+}
+
+.data-table th,
+.data-table td {
+  border: none;
+  padding: 12px;
+  color: rgb(231, 220, 220);
+  text-align: center;
+}
+
+.fetch-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 24px; /* Increase padding for a bolder button */
+  font-weight: bold; /* Make text bold */
+  text-transform: uppercase; /* Uppercase button text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.fetch-button:hover {
+  background-color: #0056b3; /* Darken button color on hover */
+}
